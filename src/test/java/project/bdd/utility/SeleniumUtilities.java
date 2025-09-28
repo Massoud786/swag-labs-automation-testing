@@ -23,4 +23,7 @@ public class SeleniumUtilities extends BaseSetup {
     public void sentTextToElement(By locator, String text){
         getWait().until(ExpectedConditions.visibilityOfElementLocated(locator)).sendKeys(text);
     }
+    public boolean isElementDisplayed(By locator){
+        return getWait().until(ExpectedConditions.visibilityOfElementLocated(locator)).isDisplayed();
+    }
 }
