@@ -11,7 +11,7 @@ This project demonstrate designing and executing end-to-end automated test scena
 - Modular project structure for scalability and readability.  
 - Ready for future enhancements like reporting, CI/CD pipelines, and cross-browser testing.
 
-- #Tech Stack
+- # Tech Stack
 - Language:** Java 22  
 - Automation:** Selenium 4  
 - BDD Framework:** Cucumber 7 (with Gherkin syntax)  
