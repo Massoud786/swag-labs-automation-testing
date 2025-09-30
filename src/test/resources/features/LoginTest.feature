@@ -1,14 +1,14 @@
-Feature: Login functionality test
+Feature: Login functionality
 
-  Scenario: Validate login functionality using map data table
-    Given user fills up the login form
+  Scenario: Validate successful login
+    Given user enters login credentials
     |username |standard_user|
     |password |secret_sauce|
-    When user clicks on login button
+    When user clicks on the login button
     Then user should land on the product page
 
 
-    Scenario Outline: Invalid login attempts
+    Scenario Outline: Validate invalid login attempts
       When user logs in with username "<username>" and password "<password>"
       Then an error message should be displayed saying "<message>"
 
