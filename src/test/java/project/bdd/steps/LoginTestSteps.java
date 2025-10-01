@@ -13,7 +13,7 @@ import java.util.Map;
 
 public class LoginTestSteps extends SeleniumUtilities {
 
-    @Given("user fills up the login form")
+    @Given("user enters login credentials")
     public void userFillsUpTheLoginForm(DataTable dataTable) {
         Map<String, String> data = dataTable.asMap();
         String userName = data.get("username");
@@ -23,7 +23,7 @@ public class LoginTestSteps extends SeleniumUtilities {
         sentTextToElement(LoginPage.PASSWORD, password);
     }
 
-    @When("user clicks on login button")
+    @When("user clicks on the login button")
     public void userClicksOnSignButton() {
         clickOnElement(LoginPage.LOGIN_BUTTON);
     }
