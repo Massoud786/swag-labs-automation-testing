@@ -1,3 +1,4 @@
+
 Feature: Inventory Management
 
   Scenario: Validate user lands on the product page after log in to choose items to buy

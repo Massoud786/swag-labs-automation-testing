@@ -1,5 +1,6 @@
 Feature: Login functionality
 
+  @login
   Scenario: Validate successful login
     Given user enters login credentials
     |username |standard_user|
@@ -7,7 +8,7 @@ Feature: Login functionality
     When user clicks on the login button
     Then user should land on the product page
 
-
+   @login
     Scenario Outline: Validate invalid login attempts
       When user logs in with username "<username>" and password "<password>"
       Then an error message should be displayed saying "<message>"
