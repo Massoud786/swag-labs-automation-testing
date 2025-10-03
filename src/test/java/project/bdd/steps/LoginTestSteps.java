@@ -30,7 +30,7 @@ public class LoginTestSteps extends SeleniumUtilities {
 
     @Then("user should land on the product page")
     public void userShouldLandOnTheProductPage() {
-        String actualProductLabelText = getElementText(ProductPage.CLASS_NAME);
+        String actualProductLabelText = getElementText(ProductPage.PRODUCT_LABEL);
         String expectedProductLabelText = "Products";
         Assert.assertEquals(expectedProductLabelText, actualProductLabelText);
     }
