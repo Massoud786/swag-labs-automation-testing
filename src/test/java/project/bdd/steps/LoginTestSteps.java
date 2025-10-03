@@ -32,7 +32,7 @@ public class LoginTestSteps extends SeleniumUtilities {
     public void userShouldLandOnTheProductPage() {
         String actualProductLabelText = getElementText(ProductPage.PRODUCT_LABEL);
         String expectedProductLabelText = "Products";
-        Assert.assertEquals(expectedProductLabelText, actualProductLabelText);
+        Assert.assertEquals(expectedProductLabelText,actualProductLabelText);
     }
     @When("user logs in with username {string} and password {string}")
     public void userLogsInWithUsernameAndPassword(String username, String password){
