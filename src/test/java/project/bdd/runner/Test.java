@@ -5,12 +5,11 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features/LoginTest.feature",
+        features = "classpath:features/InventoryTest.feature",
         glue = "project.bdd.steps",
-        tags = "@login",
+        tags = "@inventory",
         dryRun = false
 )
 public class Test {
-
 
 }
