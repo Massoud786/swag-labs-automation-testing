@@ -2,7 +2,7 @@
 # 🧪 Swag Labs Automation Testing Framework
 
 ### 📋 Overview
-This project automates end-to-end testing of the [Swag Labs](https://www.saucedemo.com/) web application using **Java**, **Selenium WebDriver**, **Cucumber (BDD)**, and **Maven**.  
+This project automates end-to-end testing of the [Swag Labs](https://www.saucedemo.com/v1/index.html) web application using **Java**, **Selenium WebDriver**, **Cucumber (BDD)**, and **Maven**.  
 It follows the **Page Object Model (POM)** design pattern to maintain a clean and scalable test architecture.
 
 The framework validates core functionalities such as:
