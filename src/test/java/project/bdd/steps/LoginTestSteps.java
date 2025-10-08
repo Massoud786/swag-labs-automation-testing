@@ -43,6 +43,6 @@ public class LoginTestSteps extends SeleniumUtilities {
     @Then("an error message should be displayed saying {string}")
     public void anErrorMessageShouldBeDisplayed(String expectedMessage){
         String actualErrorMessage = getElementText(LoginPage.ERROR_MESSAGE);
-        Assert.assertEquals(actualErrorMessage,expectedMessage);
+        Assert.assertEquals(expectedMessage,actualErrorMessage);
     }
 }
