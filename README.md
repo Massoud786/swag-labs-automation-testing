@@ -104,7 +104,7 @@ Scenario: Validate checkout information page
 After execution, reports are generated in:
 ```
 target/cucumber-html-report.html
-<img width="1504" height="549" alt="html_report" src="https://github.com/user-attachments/assets/f3076214-9536-4dc6-8713-d794dd755484" />
+
 
 ```
 
