@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features/LogoutTest.feature",
+        features = "classpath:features/LoginTest.feature",
         glue = "project.bdd.steps",
        // tags = "@checkout",
         dryRun = false,

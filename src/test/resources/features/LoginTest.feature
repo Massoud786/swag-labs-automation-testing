@@ -15,6 +15,9 @@ Feature: Login functionality
 
       Examples:
         | username         | password      | message                                                                  |
+        |                  |               | Epic sadface: Username is required                                       |
+        | locked_out_user  |               | Epic sadface: Password is required                                       |
+        |                  | secret_sauce  | Epic sadface: Username is required                                       |
         | locked_out_user  | secret_sauce  | Epic sadface: Sorry, this user has been locked out.                      |
         | standard_user    | wrong_pass    | Epic sadface: Username and password do not match any user in this service|
         | wrong_user       | secret_sauce  | Epic sadface: Username and password do not match any user in this service|

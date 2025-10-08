@@ -8,4 +8,7 @@ public class LoginPage {
     public static final By PASSWORD = By.name("password");
     public static final By LOGIN_BUTTON = By.id("login-button");
     public static final By ERROR_MESSAGE = By.xpath("/html/body/div[2]/div[1]/div/div/form/h3");
+    public static final By USERNAME_REQUIRED_ERROR = By.xpath("/html/body/div[2]/div[1]/div/div/form/h3");
+    public static final By PASSWORD_REQUIRED_ERROR = By.xpath("/html/body/div[2]/div[1]/div/div/form/h3");
+
 }
