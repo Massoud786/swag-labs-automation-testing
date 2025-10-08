@@ -16,7 +16,7 @@ The framework validates core functionalities such as:
 ### ⚙️ Tech Stack
 | Tool / Library | Purpose |
 |-----------------|----------|
-| **Java 21** | Programming language |
+| **Java 22.0.2 (RunTime)** | Programming language (compiled with Java 21 for Maven compatibility) |
 | **Maven 3.9.11** | Build automation and dependency management |
 | **Selenium WebDriver** | Browser automation |
 | **Cucumber (BDD)** | Behavior-driven development framework |
@@ -104,6 +104,8 @@ Scenario: Validate checkout information page
 After execution, reports are generated in:
 ```
 target/cucumber-html-report.html
+<img width="1504" height="549" alt="html_report" src="https://github.com/user-attachments/assets/f3076214-9536-4dc6-8713-d794dd755484" />
+
 ```
 
 To open it:
