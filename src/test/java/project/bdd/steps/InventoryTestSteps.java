@@ -16,7 +16,7 @@ public class InventoryTestSteps extends SeleniumUtilities {
         Assert.assertEquals(expectedTitle,actualTitle);
     }
     @When("user clicks on product to buy")
-    public void userClicksOnProductToBuy() throws InterruptedException {
+    public void userClicksOnProductToBuy(){
         clickOnElement(ProductPage.BTN_PRIMARY);
 
     }

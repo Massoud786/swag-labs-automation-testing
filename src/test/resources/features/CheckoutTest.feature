@@ -13,7 +13,6 @@ Feature: Checkout Process
     Then user should land on the product page
 
     Rule: User must add at least one item to the cart before checkout
-      Example: user puts an item to the cart before checkout
 
    @Smoke @Positive
   Scenario Outline: Validate checkout information page
