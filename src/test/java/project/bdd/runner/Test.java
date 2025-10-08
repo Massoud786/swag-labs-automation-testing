@@ -5,9 +5,9 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "classpath:features/LoginTest.feature",
+        features = "classpath:features/CheckoutTest.feature",
         glue = "project.bdd.steps",
-        tags = "@login",
+       // tags = "@checkout",
         dryRun = false,
         plugin = {
                 "pretty",
