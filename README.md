@@ -53,7 +53,7 @@ swag-labs-automation-testing
 
 #### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/<Massoud786>/swag-labs-automation-testing.git
+git clone https://github.com/Massoud786/swag-labs-automation-testing.git
 cd swag-labs-automation-testing
 ```
 
